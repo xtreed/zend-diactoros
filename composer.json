@@ -75,5 +75,8 @@
     "cs-fix": "phpcbf",
     "test": "phpunit --colors=always",
     "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+  },
+  "replace": {
+    "zendframework/zend-diactoros": "~1.0|~2.0"
   }
 }
